@@ -1,0 +1,53 @@
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; /* Font family for text */
+}
+section {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px; /* Padding inside the section */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* Styling for heading elements */
+h1, h2 {
+    color: #333;
+    font-family: 'Protest Strike', sans-serif;
+    text-align: center;
+}
+button {
+    background-color: #3498db; /* Default blue background color */
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none; /* no border*/
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3483db; /* Darker blue color on hover */
+}
+#playback, #random {
+    background-color: #2ecc71;
+}
+#playback:hover, #random:hover {
+    background-color: #27ae60;
+}
+#story {
+    margin-top: 15px; /* Margin on top of the story display */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+p {
+    margin-bottom: 10px;
+}
